@@ -1,0 +1,47 @@
+@font-face {
+    font-family: urdu;
+    src: url('../fonts/urdu.ttf');
+}
+.urdu-font {
+    font-family: 'urdu', sans-serif; /* Urdu font */
+    font-size: 16px; /* Urdu font size */
+    color: #000; /* Urdu font color */
+}
+#urdu{
+    font-family: 'urdu', sans-serif; /* Urdu font *//* Urdu font size */
+    color: #000;
+    margin: 30px; /* Urdu font color */
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: Black;
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    border-radius: 10px; 
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white; /* Light color for text */
+   
+}
+.navbar-light .navbar-brand{
+    color: white; /* Light color for text */
+}
+.bg-brown {
+    background-color: #4B3F3F;
+    /* Brown background color */
+}
+#footer {
+    background-color: #4B3F3F; /* Brown background color */
+    color: white;
+    padding: 40px 0;
+    margin:auto; /* Add some padding for better spacing */
+    text-align: center; /* Center align text *//* Fix the footer at the bottom */
+    width: 100%; /* Full width */
+    bottom: 0; /* Align at the bottom */
+    position:relative;
+}
+.copyright {
+    font-size: 14px; /* Adjust font size */
+}
+.pressbtn{
+    background-color: black;
+}
